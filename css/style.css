@@ -17,11 +17,13 @@ ul {
     color: white;
     padding: 10px 15px;
 }
+a {
+    text-decoration: none;
+}
 /*>>>> COMMON */
 
 /*>>>> HEADER */
 header {
-    background-color: aqua;
     height: 80px;
     display: flex;
     align-items:center;
@@ -37,14 +39,53 @@ header li {
     padding: 0px 20px;
 }
 header li a { 
-    text-decoration: none;
     color: black;
 }
-
-
 /*>>>> HEADER */
 
 /*>>>>>> MAIN */
+/* Top Container */
+.top-container {
+    background-color: #b4d0e7;
+    
+}
+.big-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+.big-section > h1 {
+    font-size: 80px;
+    font-weight: 900px;
+}
+.big-section-bottom {
+    display: flex;
+    margin-top: 55px;
+}
+.big-section-column1 {
+    width: 380px;
+}
+.big-section-column2 {
+    width: calc(100% - 380px);
+}
+.big-section-column2 > img {
+    width: 100%;
+
+}
+.big-section-column1 p {
+    margin-bottom: 35px;
+}
+.big-section-column1 div {
+    margin: 35px 0;
+}
+.big-section-column1 i {
+    margin-top: 40px;
+    font-size: 45px;
+}
+
+
+/* Top Container */
 /*>>>>>> MAIN */
 
 /*>>>> FOOTER */
