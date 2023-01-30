@@ -193,11 +193,11 @@ header li a {
     display: block;
 }
 .div-partner {
-    margin:60px 50px 0;
-    width: 40%; 
+    margin:40px 0 0 50px;
+    width: 30%; 
 }
 .div-partner section div {
-    margin: 20px 0 50px 0;
+    margin: 20px 0 40px 0;
 }
 .div-partner section a {
     background-color: white;
@@ -205,6 +205,34 @@ header li a {
     color: black;
 }
 /* Partner */
+/* Funtion container */
+.function-container {
+    width: 1000px;
+    margin: 160px auto 80px;
+}
+.function-container h1 {
+    margin-bottom: 70px;
+}
+.function-container > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.function-box {
+    width: 305px;
+    margin-bottom: 65px;   
+}
+.function-box div {
+    display: block;
+}
+.function-box img {
+    width: 100%;
+}
+.function-box h2 {
+    margin-bottom: 35px;
+}
+/* Funtion container */
+
 /*>>>>>> MAIN */
 
 /*>>>> FOOTER */
