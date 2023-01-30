@@ -7,7 +7,7 @@
 
 /*>>>> COMMON */
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 ul {
     list-style-type: none;
@@ -56,8 +56,8 @@ header li a {
     top: 100px;
 }
 .big-section > h1 {
-    font-size: 80px;
-    font-weight: 900px;
+    font-size: 77px;
+    font-weight: bolder;
 }
 .big-section-bottom {
     display: flex;
@@ -83,9 +83,27 @@ header li a {
     margin-top: 40px;
     font-size: 45px;
 }
-
-
 /* Top Container */
+
+/* Pacchetti */
+.center-container {
+    width: 1000px;
+
+    margin: 150px auto 0;
+}
+.plan-container {
+    background-color: aquamarine;
+    height: 130px;
+}
+.radio {
+    margin: 50px 0;
+}
+#radio {
+    margin-right:50px;
+}
+/* Pacchetti */
+
+
 /*>>>>>> MAIN */
 
 /*>>>> FOOTER */
