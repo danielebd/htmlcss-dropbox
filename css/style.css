@@ -209,6 +209,7 @@ header li a {
 .function-container {
     width: 1000px;
     margin: 160px auto 80px;
+    margin-bottom: 200px;
 }
 .function-container h1 {
     margin-bottom: 70px;
@@ -232,6 +233,20 @@ header li a {
     margin-bottom: 35px;
 }
 /* Funtion container */
+/* Link */
+.link {
+    width: 1000px;
+    margin: 0 auto;
+}
+.link div {
+    width: 590px;
+    margin: 60px 0;
+}
+.link a {
+    text-decoration: underline;
+    color: #0061ff;
+}
+/* link */
 
 /*>>>>>> MAIN */
 
