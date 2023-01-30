@@ -20,6 +20,16 @@ ul {
 a {
     text-decoration: none;
 }
+li {
+    display: flex;
+    padding: 10px 0;
+    align-items: baseline;
+}
+
+li i {
+    padding-right: 5px;
+}
+
 /*>>>> COMMON */
 
 /*>>>> HEADER */
@@ -88,11 +98,9 @@ header li a {
 /* Pacchetti */
 .center-container {
     width: 1000px;
-
     margin: 150px auto 0;
 }
-.plan-container {
-    background-color: aquamarine;
+.plan-container {    
     height: 130px;
 }
 .radio {
@@ -100,6 +108,57 @@ header li a {
 }
 #radio {
     margin-right:50px;
+}
+.plans {
+    display: flex;
+    gap: 50px;
+}
+.plan {
+    width: 300px;
+    border: solid #d0d0d3 1px;
+}
+.type-plan {
+    border-bottom: solid #d0d0d3 1px;
+    text-align: center;
+    padding: 10px 0;
+}
+.main-plan {
+    margin: 40px 25px;
+}
+.main-plan section div {
+    padding: 25px 0 10px 0;
+    font-weight: bold;
+}
+.main-plan span {
+    color: gray;
+}
+.icon-list {
+    margin: 50px 0;
+}
+
+.main-plan .a-blue {
+    display: block;
+    text-align: center;
+}
+
+.main-plan > div > div {
+    display: inline-block;
+    border-bottom: solid gray 1px;
+    padding: 40px 0;
+}
+.main-plan > div > a {
+    text-decoration:underline;
+    color: #0061ff;
+    padding: 40px 0;
+}
+.blue-list {
+    margin: 55px 0;
+}
+.blue-list > h4 {
+    margin-bottom: 35px;
+}
+.blue-list > ul > li > i {
+    color: #0061ff;
 }
 /* Pacchetti */
 
