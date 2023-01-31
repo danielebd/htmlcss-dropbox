@@ -11,6 +11,7 @@ body {
 }
 ul {
     list-style-type: none;
+    
 }
 .a-blue {
     background-color: #0061ff;
@@ -21,13 +22,9 @@ a {
     text-decoration: none;
 }
 li {
-    display: flex;
     padding: 10px 0;
-    align-items: baseline;
-}
-
-li i {
-    padding-right: 5px;
+    display: flex;
+    align-items: center;
 }
 ::-webkit-scrollbar {
     width: 10px;
@@ -59,11 +56,21 @@ header {
     justify-content: flex-end;
     align-items: center;
 }
+header ul {
+    height: 100%;
+}
 header li {
     padding: 0px 20px;
+    height: 100%;
 }
 header li a { 
     color: black;
+}
+li i {
+    padding-right: 5px;
+}
+header li:hover {
+    border-bottom: solid #0061ff;
 }
 /*>>>> HEADER */
 
@@ -378,19 +385,24 @@ header li a {
     margin-bottom: 60px;
 }
 .faq-container section {
-    margin: 45px 0;
     position: relative;
 }
 .faq-container section div {
     display: flex;
     align-items: baseline;
-    transition: 0.4s;
-    z-index: 2;
     background-color: white;
-} 
-.faq-container section p:hover {
-    display: inline-block;
+    padding: 45px 0;
     position: relative;
+}
+.icon-hidden {
+    visibility: hidden;
+} 
+.over:hover .icon-hidden {
+    display: block;
+    visibility: visible;
+}
+.over:hover .icon-over {
+    display: none;
 }
 .faq-container h4 {
     width: 95%;
@@ -398,12 +410,15 @@ header li a {
 .faq-container i {
     font-size: 12px;
 }
-.faq-container p {
+.hidden {
     display: none;
-    overflow: hidden;
-    padding-top: 30px;
     position: absolute;
-    
+    padding: 40px 0;
+}
+.over:hover .hidden {
+    display: block;
+    transition: 0.4s;
+    position: relative;
 }
 /* FAQ */
 /*>>>>>> MAIN */
