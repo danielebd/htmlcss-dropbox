@@ -368,6 +368,7 @@ header li a {
     background-color: white;
     color: black;
 }
+/* invito */
 /* FAQ */
 .faq-container {
     width: 1000px;
@@ -378,15 +379,18 @@ header li a {
 }
 .faq-container section {
     margin: 45px 0;
-
+    position: relative;
 }
 .faq-container section div {
     display: flex;
     align-items: baseline;
     transition: 0.4s;
+    z-index: 2;
+    background-color: white;
 } 
 .faq-container section p:hover {
-    visibility: visible;
+    display: inline-block;
+    position: relative;
 }
 .faq-container h4 {
     width: 95%;
@@ -398,13 +402,38 @@ header li a {
     display: none;
     overflow: hidden;
     padding-top: 30px;
+    position: absolute;
+    
 }
-
 /* FAQ */
-/* invito */
-
 /*>>>>>> MAIN */
 
 /*>>>> FOOTER */
+footer {
+    background-color: black;
+}
+.footer-container {
+    width: 1200px;
+    margin: 0 auto;
+    color: white;
+}
+.footer-minicontainer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-box {
+    margin: 110px 0;
+}
+.footer-box h2 {
+    margin-bottom: 40px;
+}
+.footer-container hr {
+    width: 120px;
+    color: white;
+}
+.lingue {
+    color: gray;
+    padding: 60px 0;
+}
 /*>>>> FOOTER */
 
